@@ -1,0 +1,291 @@
+@font-face {
+  font-family: Rexlia;
+  src: url(../font/rexlia\ rg.otf);
+}
+.nav-item {
+  font-size: 15px;
+  letter-spacing: 4px;
+  color: white;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.navbar-toggler {
+  background: rgb(255, 255, 255);
+  border: 125px;
+  border-color: rgb(255, 255, 255);
+}
+.navbar-toggler-icon {
+  color: black;
+}
+.navbar {
+  background: rgba(27, 27, 27, 0.5);
+}
+nav {
+  font-family: "Ubuntu", "sans-serif";
+}
+
+nav ul li a:hover span:nth-child(1) {
+  margin-right: 5px;
+}
+
+nav ul li a:hover span {
+  color: rgb(217, 170, 40);
+  text-shadow: 0 0 10px hsl(0, 0%, 100%), 0 0 20px hsl(0, 0%, 100%),
+    0 0 40px hsl(0, 0%, 100%);
+}
+
+nav ul li a span {
+  transition: 0.5s linear;
+}
+
+.logo {
+  width: 150px;
+  height: 100%;
+  object-fit: cover;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+.container-fluid,
+.row,
+.col-xl-12 {
+  padding: 0;
+  margin: 0;
+}
+#HeaderCU {
+  height: 100%;
+  margin-bottom: 0;
+  padding-bottom: 200px;
+  background-image: url(../img/contact-us-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  position: relative;
+  isolation: isolate;
+}
+#HeaderCU:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  background: #2e2e2e;
+  opacity: 0.3;
+}
+.main-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.branch {
+  color: white;
+  margin-top: 100px;
+  background-color: rgba(56, 56, 56, 0.3);
+}
+#Private-Events {
+  background-color: #c2974d;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#CareerAds {
+  height: 100%;
+  margin-bottom: 0;
+  padding-bottom: 400px;
+  background-image: url(../img/career.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  position: relative;
+  isolation: isolate;
+}
+#CareerAds:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  background: #2e2e2e;
+  opacity: 0.3;
+}
+.row-career {
+  padding-top: 400px;
+  margin-left: 100px;
+}
+.btn-dark {
+  width: 50%;
+}
+#Apply-Now {
+  width: 50%;
+}
+#careerForm {
+  display: none;
+}
+#Apply-Now:hover {
+  background-color: #d12020;
+  color: rgb(255, 255, 255);
+}
+.btn-dark:hover {
+  background-color: #d12020;
+  color: rgb(255, 255, 255);
+}
+#footer-logo {
+  width: 100px;
+}
+#footer {
+  background: linear-gradient(180deg, rgb(32, 36, 39) 0%, rgb(19, 19, 19) 100%);
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+}
+.footer-description {
+  font-size: 15px;
+}
+.footer-item {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.footer-item {
+  list-style-type: none;
+  display: block;
+  color: white;
+  letter-spacing: 1px;
+  font-size: 15px;
+  margin-top: 10px;
+}
+.footer-list {
+  padding-top: 100px;
+}
+.footer a:link {
+  text-decoration: none;
+}
+
+.footer a:visited {
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer a:active {
+  text-decoration: underline;
+}
+
+/* unvisited link */
+.footer a:link {
+  color: white;
+}
+
+/* visited link */
+.footer a:visited {
+  color: rgb(255, 255, 255);
+}
+
+/* mouse over link */
+.footer a:hover {
+  color: rgb(23, 23, 21);
+  background: white;
+}
+
+/* selected link */
+.footer a:active {
+  color: white;
+}
+
+.btnfoot {
+  width: 310px;
+  height: 30px;
+  border-radius: 200px;
+  padding-bottom: 30px;
+  background: rgba(45, 45, 45, 0.7);
+  color: white;
+  margin-bottom: 10px;
+}
+#footer-logo {
+  width: 250px;
+  padding-bottom: 50px;
+}
+.footer-ds {
+  font-size: 13px;
+}
+form {
+  font-family: "Ubuntu", sans-serif;
+}
+
+#CareerForm {
+  display: none;
+}
+/* Center the section and align the margins */
+#CareerForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.apply_box {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+/* Style the form controls */
+.form_container {
+  margin-top: 20px;
+}
+
+.form_control {
+  margin-bottom: 15px;
+}
+
+.form_control label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form_control input,
+.form_control select,
+.form_control textarea {
+  width: 100%;
+  padding: 8px 12px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.form_control select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="%23667" width="14px" height="14px"><path d="M2.417,7.222l7.306,7.306c0.391,0.391,1.023,0.391,1.414,0l7.306-7.306c0.781-0.781,0.781-2.047,0-2.828l-0.707-0.707c-0.781-0.781-2.047-0.781-2.828,0L10,10.637L4.949,5.585c-0.781-0.781-2.047-0.781-2.828,0L1.71,6.292C0.93,7.073,0.93,8.439,1.71,9.22L2.417,7.222z"/></svg>')
+    no-repeat right 10px center/15px 15px;
+}
+
+.textarea_control label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.textarea_control textarea {
+  width: 100%;
+  padding: 8px 12px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  resize: none;
+}
+
+/* Style the button */
+.btn {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #444;
+}

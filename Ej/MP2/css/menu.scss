@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+p {
+  font-family: "Ubuntu", sans-serif;
+}
+h1 {
+  font-family: "Ubuntu", sans-serif;
+}
+h4 {
+  font-family: "Montserrat Alternates", sans-serif;
+}
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.head-background {
+  position: relative;
+  height: 50vh;
+  background-image: url(../background-img/1889540.jpg);
+  background-size: 100%;
+}
+
+#menu-title {
+  position: absolute;
+  z-index: 3;
+  margin-top: 8%;
+  margin-left: 45%;
+  color: white;
+  font-size: 80px;
+  font-family: special elite;
+  text-shadow: black 0px 1px 3px;
+}
+#product-title {
+  color: white;
+  font-size: 50px;
+  font-family: special elite;
+  text-shadow: black 0px 1px 3px;
+}
+.menu-price {
+  position: absolute;
+  margin: 0;
+  top: -5px;
+  right: 10px;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 45px;
+  color: #33211d;
+  background: #da9f5b;
+}
+.rounded-circle {
+  border-radius: 50%;
+}
+.row {
+  position: relative;
+}
+.col-4,
+.col-sm-3 {
+  position: relative;
+}
+#container-1 {
+  background-image: url(../background-img/Artboard-1.jpg);
+  background-size: contain;
+}
+.hide {
+  display: none;
+}
+
+/* Carousel */
+@media screen and (max-width: 768px) {
+  .head-background {
+    background-size: cover;
+  }
+  #menu-title {
+    font-size: 50px;
+    margin-top: 100px;
+    margin-left: 75px;
+  }
+}

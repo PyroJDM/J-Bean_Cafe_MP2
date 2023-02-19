@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Login - J Bean Cafe</title>
+    <link
+      rel="shortcut icon"
+      href="img/j-bean-cafe-high-resolution-logo-black-on-transparent-background.png" />
+    <link rel="stylesheet" href="css/login.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="js/menu.js"></script>
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg fixed-top d-flex justify-content-center">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"
+          ><h1 class="logo display-5 mt-2 ms-2">
+            <span
+              ><img
+                src="img/j-bean-cafe-high-resolution-logo-white-on-transparent-background.png"
+                class="logo img-fluid h-100"
+            /></span></h1
+        ></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-xl-end"
+          id="navbarNav">
+          <ul class="navbarNav navbar-nav d-flex justify-content-start">
+            <li class="nav-item">
+              <a class="nav-link text-light active" href="index.html"
+                ><span>Home</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light active" href="menu.html"
+                ><span>Menu</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light active" href="contactus.html"
+                ><span>Contact Us</span></a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <video id="videoBG" poster="img/poster.png" autoplay muted loop>
+        <source src="vid/coffeeart.mp4" type="video/mp4" />
+      </video>
+      <div class="row">
+        <form class="form">
+          <img
+            src="img/j-bean-cafe-high-resolution-logo-black-on-transparent-background.png"
+            class="img-fluid logo-img mb-2 w-90" />
+          <input
+            placeholder="Email address or phone number"
+            class="input"
+            type="text"
+            id="username" />
+          <input
+            placeholder="Password"
+            class="input"
+            type="password"
+            id="password" />
+          <button id="loginBtn">Log in</button>
+          <a id="forgotPassword" href="#">Forgotten password?</a>
+          <button class="create" id="createAccountBtn">
+            Create new account
+          </button>
+        </form>
+      </div>
+    </div>
+    <!--footer-->
+    <footer id="footer" class="d-flex justify-content-center">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xl-8 col-12 mt-5">
+            <img
+              src="img/j-bean-cafe-high-resolution-logo-white-on-transparent-background.png"
+              id="footer-logo"
+              class="img-fluid" />
+            <p class="footer-description">
+              We are committed to providing you with the highest quality coffee
+              and exceptional customer service.<br />
+              Our expertly crafted beverages are made with freshly roasted beans
+              sourced from the world's best <br />coffee-growing regions. We
+              also offer a variety of premium pastries and snacks to accompany
+              your coffee.
+            </p>
+          </div>
+          <div class="footer-list col-xl-2 col-12">
+            <ul class="footer text-start fs-5">
+              <li class="footer-item d-none d-sm-block">
+                <a href="#" target="blank">FAQ</a>
+              </li>
+              <li class="footer-item d-none d-sm-block">
+                <a href="#" target="blank">Legal Overview</a>
+              </li>
+              <li class="footer-item d-none d-sm-block">
+                <a href="#" target="blank">Privacy Policy</a>
+              </li>
+              <li class="footer-item d-none d-sm-block">
+                <a href="#" target="blank">Terms & Conditions</a>
+              </li>
+              <li class="footer-item d-none d-sm-block">
+                <a href="#" target="blank">Press Info</a>
+              </li>
+              <li class="footer-item text-center d-block d-sm-none">
+                <a href="#" target="blank">FAQ</a>
+              </li>
+              <li class="footer-item text-center d-block d-sm-none">
+                <a href="#" target="blank">Legal Overview</a>
+              </li>
+              <li class="footer-item text-center d-block d-sm-none">
+                <a href="#" target="blank">Privacy Policy</a>
+              </li>
+              <li class="footer-item text-center d-block d-sm-none">
+                <a href="#" target="blank">Terms & Conditions</a>
+              </li>
+              <li class="footer-item text-center d-block d-sm-none">
+                <a href="#" target="blank">Press Info</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-list col-xl-2 col-12">
+            <ul class="footer text-start fs-5">
+              <li class="footer-item d-none d-sm-block">
+                <a href="#" target="blank">Facebook</a>
+              </li>
+              <li class="footer-item d-none d-sm-block">
+                <a href="#" target="blank">Instagram</a>
+              </li>
+              <li class="footer-item d-none d-sm-block">
+                <a href="#" target="blank">Discord</a>
+              </li>
+              <li class="footer-item d-none d-sm-block">
+                <a href="#" target="blank">Youtube</a>
+              </li>
+              <li class="footer-item d-none d-sm-block">
+                <a href="#" target="blank">Tiktok</a>
+              </li>
+              <li class="footer-item">
+                <a href="#" target="blank"
+                  ><button class="btnfoot d-block d-sm-none text-center">
+                    Facebook
+                  </button></a
+                >
+              </li>
+              <li class="footer-item">
+                <a href="#" target="blank"
+                  ><button class="btnfoot d-block d-sm-none">
+                    Instagram
+                  </button></a
+                >
+              </li>
+              <li class="footer-item">
+                <a href="#" target="blank"
+                  ><button class="btnfoot d-block d-sm-none">Discord</button></a
+                >
+              </li>
+              <li class="footer-item">
+                <a href="#" target="blank"
+                  ><button class="btnfoot d-block d-sm-none">Youtube</button></a
+                >
+              </li>
+              <li class="footer-item">
+                <a href="#" target="blank"
+                  ><button class="btnfoot d-block d-sm-none">Tiktok</button></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row mt-5">
+          <div class="divider"></div>
+          <hr />
+          <div class="col-xl-12 text-center mt-5 mb-5">
+            <p class="footer-ds">
+              J-Bean Cafe is a fictional website for KodeGo's Mini Project 2.
+              This project is a group effort made by J. De Maiztegui, E.
+              Alindog, L. Reyes.<br />
+              The team would like to thank Our Instructor, Mr. Sanchez for
+              helping and guiding us with this project.
+            </p>
+            <p class="footer-ds pb-3">
+              © 2022 J-Bean Cafe. All Rights Reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

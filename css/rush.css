@@ -1,0 +1,383 @@
+@font-face {
+  font-family: special-elite;
+  src: url(../font/special-elite.regular.ttf);
+}
+body {
+  font-family: "special-elite";
+}
+html {
+  scroll-behavior: smooth;
+}
+.nav-item {
+  font-size: 15px;
+  letter-spacing: 4px;
+  color: white;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.navbar-toggler {
+  background: rgb(255, 255, 255);
+  border: 125px;
+  border-color: rgb(255, 255, 255);
+}
+.navbar-toggler-icon {
+  color: black;
+}
+.navbar {
+  background: rgba(37, 37, 37, 0.5);
+}
+nav {
+  font-family: "Ubuntu", "sans-serif";
+}
+
+nav ul li a:hover span:nth-child(1) {
+  margin-right: 5px;
+}
+
+nav ul li a:hover span {
+  color: rgb(217, 170, 40);
+  text-shadow: 0 0 10px hsl(0, 0%, 100%), 0 0 20px hsl(0, 0%, 100%),
+    0 0 40px hsl(0, 0%, 100%);
+}
+
+nav ul li a span {
+  transition: 0.5s linear;
+}
+
+.logo {
+  width: 150px;
+  height: 100%;
+  object-fit: cover;
+}
+
+.carousel-item {
+  height: 850px;
+}
+.c-img {
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.6);
+}
+.learn-more-btn {
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  margin-left: 400px;
+}
+.learn-more-btn:hover {
+  background-color: rgb(238, 237, 231);
+  color: rgb(28, 28, 28);
+}
+.heroHeading {
+  color: rgb(255, 255, 255);
+  font-family: "special-elite";
+}
+.subheading {
+  font-family: "special-elite";
+}
+.heading {
+  font-family: "special-elite";
+}
+.icon {
+  width: 50px;
+}
+.paper-cup {
+  object-fit: cover;
+}
+#ProductOverview {
+  padding-bottom: 150px;
+  margin-bottom: 0px;
+  background-image: url(../img/sample-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  position: relative;
+  isolation: isolate;
+}
+
+#ProductOverview:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  background: #f1f1f1;
+  opacity: 0.6;
+}
+.section-where {
+  background-color: #f1f1f1;
+}
+.rowmap {
+  background-color: #f1f1f1;
+  height: 400px;
+  margin-top: 100px;
+  margin-bottom: 200px;
+}
+.reservationform {
+  background-color: #f1f1f1;
+}
+.form-row {
+  background-color: #f1f1f1;
+}
+.box {
+  background-color: #f1f1f1;
+}
+#reservationbody {
+  background-color: #f1f1f1;
+  padding-bottom: 250px;
+}
+
+.reservation-form-title {
+  margin-left: 30%;
+}
+.reservation-form-subtitle {
+  margin-left: 30%;
+}
+#ContactFormEmail {
+  width: 70%;
+  height: 50px;
+  margin-left: 30%;
+}
+#ContactFormNumber {
+  width: 140%;
+  height: 50px;
+  margin-left: 60%;
+}
+#ContactFormDate {
+  width: 140%;
+  height: 50px;
+  margin-left: 60%;
+}
+#ContactFormTime {
+  width: 70%;
+  height: 50px;
+  margin-left: 30%;
+}
+#ContactFormMessage {
+  width: 70%;
+  margin-left: 30%;
+  margin-bottom: 20px;
+}
+
+#bookTable {
+  margin-left: 30%;
+  width: 70%;
+  height: 70px;
+  background-color: black;
+  /* Hover color brown */
+}
+#Gallery {
+  margin-top: 0px;
+  background-color: #fff;
+}
+
+.animated {
+  width: 160px;
+  height: 160px;
+  float: left;
+  margin-left: 5px;
+  margin-right: 10px;
+  margin-top: 5px;
+  object-fit: cover;
+  border-top: 1px solid;
+  border-left: 1px solid;
+  border-right: 2px solid;
+  border-bottom: 2px solid;
+  border-color: black;
+}
+.popular-content {
+  margin-bottom: 5px;
+  margin-top: -10px;
+  padding: 0;
+}
+#DineWithUs {
+  width: 70%;
+  height: 70px;
+  background-color: black;
+  /* Hover color brown */
+}
+.popular-content {
+  border-top: 1px solid;
+  border-left: 1px solid;
+  border-right: 6px solid;
+  border-bottom: 6px solid;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+a {
+  text-decoration: none;
+}
+.menu-name {
+  color: rgb(118, 80, 10);
+}
+.menu-name a:link {
+  text-decoration: none;
+}
+
+.menu-name a:visited {
+  text-decoration: none;
+}
+
+.menu-name a:hover {
+  text-decoration: none;
+}
+
+.menu-name a:active {
+  text-decoration: none;
+}
+
+/* unvisited link */
+.menu-name a:link {
+  color: rgb(7, 7, 7);
+  text-decoration: none;
+}
+
+/* visited link */
+.menu-name a:visited {
+  color: rgb(7, 7, 7);
+  text-decoration: none;
+}
+
+/* mouse over link */
+.menu-name a:hover {
+  color: rgb(7, 7, 7);
+  background: white;
+}
+
+/* selected link */
+.menu-name a:active {
+  color: rgb(7, 7, 7);
+  text-decoration: none;
+}
+#About {
+  background-color: #f1f1f1;
+  padding-bottom: 100px;
+}
+.who-head {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.testimonials {
+  padding: 40px 0;
+  background: #fff;
+  color: #434343;
+  text-align: center;
+}
+
+.inner {
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 20px;
+}
+
+.border {
+  width: 160;
+  height: 5px;
+  background: #6ab04c;
+  margin: 26px auto;
+}
+
+.col {
+  flex: 33.33%;
+  max-width: 33.33%;
+  box-sizing: border-box;
+  padding: 15px;
+}
+
+.testimonial {
+  margin-top: 30px;
+  background: #f1f1f1;
+  padding: 30px;
+}
+
+.testimonial img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+#footer-logo {
+  width: 100px;
+}
+#footer {
+  background: linear-gradient(180deg, rgb(32, 36, 39) 0%, rgb(19, 19, 19) 100%);
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+}
+.footer-description {
+  font-size: 15px;
+}
+.footer-item {
+  font-family: "Rexlia";
+}
+
+.footer-item {
+  list-style-type: none;
+  display: block;
+  color: white;
+  letter-spacing: 1px;
+  font-size: 15px;
+  margin-top: 10px;
+}
+.footer-list {
+  padding-top: 100px;
+}
+.footer a:link {
+  text-decoration: none;
+}
+
+.footer a:visited {
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer a:active {
+  text-decoration: underline;
+}
+
+/* unvisited link */
+.footer a:link {
+  color: white;
+}
+
+/* visited link */
+.footer a:visited {
+  color: rgb(255, 255, 255);
+}
+
+/* mouse over link */
+.footer a:hover {
+  color: rgb(23, 23, 21);
+  background: white;
+}
+
+/* selected link */
+.footer a:active {
+  color: white;
+}
+
+.btnfoot {
+  width: 310px;
+  height: 30px;
+  border-radius: 200px;
+  padding-bottom: 30px;
+  background: rgba(45, 45, 45, 0.7);
+  color: white;
+  margin-bottom: 10px;
+}
+#footer-logo {
+  width: 250px;
+  padding-bottom: 50px;
+}
+.footer-ds {
+  font-size: 13px;
+}
